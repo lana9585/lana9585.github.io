@@ -1,0 +1,42 @@
+.border1{
+    border: solid 1px grey;
+}
+
+/* 1. Création de la classe border1 et application aux balises demandées */
+.border1, header, nav, section, article, footer {
+    border: 1px solid grey;
+}
+
+/* 2. Style pour le header (En-tête) */
+header {
+    text-align: right;           /* Aligner à droite l'ensemble des éléments */
+    background-image: url('../images/header.jpg'); /* Intégrer l'image de fond (Moodle) */
+    background-size: 100% auto;   /* Sur la largeur totale de la page */
+    background-repeat: no-repeat; /* En no-repeat */
+    color: white;                /* Couleur de la police : white */
+}
+
+nav
+{
+  height: 10%;
+  width: 100%;
+  background-color: black;
+}
+
+nav ul
+{
+    padding: 0;
+    margin: 0;
+    list-style-type: none; //retrait puce (.)
+}
+
+nav li
+{ 
+   display : inline-block; //mettre les li l'un à côté de l'autre
+   width: 10%;
+}
+nav li a
+{
+   color: white;
+   text-decoration: none;
+}
